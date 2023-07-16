@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  align-items: center;
+  box-shadow: -1px -13px 71px -27px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow: -1px -13px 71px -27px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: -1px -13px 71px -27px rgba(0, 0, 0, 0.39);
+}
+
+.search-input {
+  padding: 1rem 1.5rem;
+  border: unset;
+  border-radius: 10rem;
+  background-color: #efefef;
+  width: 15rem;
+  outline: none;
+}
+
+.nav .nav-item-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item-container .nav-item {
+  list-style: none;
+}
+
+.btn-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-group a {
+  color: black;
+  text-decoration: none;
+}
+
+.img-container {
+  width: 12rem;
+  height: auto;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.banner-container {
+  width: 100%;
+}
+
+.banner-container img {
+  width: 100%;
+}
+
+.content-container {
+  padding: 0 3.5rem 2.5rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-left {
+  display: flex;
+  gap: 1rem;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  background-color: #e6e6e6;
+  border-radius: 9.9rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item-white {
+  border: 1px solid #e6e6e6;
+  border-radius: 9.9rem;
+
+  padding: 0.5rem 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.card-img-container {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #e6e6e6;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.card-img-container img {
+  width: auto;
+  height: 100%;
+}
+
+.title-price-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.detail-container {
+  width: 100%;
+}
+
+.star-container {
+  width: 100%;
+  display: flex;
+}
+
+.star-container p {
+  color: rgb(10, 104, 10);
+}
+
+.star-container span {
+  color: #aaaaaa;
+}
+.btn-container {
+  width: 100%;
+}
+
+.add-to-cart {
+  border: 1px solid black;
+  padding: 0.5rem 1.5rem;
+  background-color: unset;
+  border-radius: 99px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.add-to-cart:hover {
+  border: 1px solid rgb(10, 104, 10);
+  background-color: rgb(10, 104, 10);
+  color: white;
+  transition: ease 0.2s;
+}
