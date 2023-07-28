@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../assets/image/banner.png";
+import Banner from "/image/banner.png";
 import Card from "./Card";
-import Image from "../assets/image/soundcore.png";
+import Image from "/image/soundcore.png";
 
 const Catalog = () => {
   const data = [
@@ -10,84 +10,84 @@ const Catalog = () => {
       nama: "Soundcore R100",
       harga: "200.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/soundcore.png",
+      img: "/image/soundcore.png",
     },
     {
       id: 2,
       nama: "Airpods Max",
       harga: "3.000.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/airpodsmax.png",
+      img: "/image/airpodsmax.png",
     },
     {
       id: 3,
       nama: "Sennheiser ADAPT 660",
       harga: "5.900.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/sennheiser660.png",
+      img: "/image/sennheiser660.png",
     },
     {
       id: 4,
       nama: "Bose QC45",
       harga: "5.790.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/boseqc45.png",
+      img: "/image/boseqc45.png",
     },
     {
       id: 5,
       nama: "Soundcore R100",
       harga: "200.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/soundcore.png",
+      img: "/image/soundcore.png",
     },
     {
       id: 6,
       nama: "Airpods Max",
       harga: "3.000.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/airpodsmax.png",
+      img: "/image/airpodsmax.png",
     },
     {
       id: 7,
       nama: "Sennheiser ADAPT 660",
       harga: "5.900.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/sennheiser660.png",
+      img: "/image/sennheiser660.png",
     },
     {
       id: 8,
       nama: "Bose QC45",
       harga: "5.790.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/boseqc45.png",
+      img: "/image/boseqc45.png",
     },
     {
       id: 9,
       nama: "Soundcore R100",
       harga: "200.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/soundcore.png",
+      img: "/image/soundcore.png",
     },
     {
       id: 10,
       nama: "Airpods Max",
       harga: "3.000.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/airpodsmax.png",
+      img: "/image/airpodsmax.png",
     },
     {
       id: 11,
       nama: "Sennheiser ADAPT 660",
       harga: "5.900.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/sennheiser660.png",
+      img: "/image/sennheiser660.png",
     },
     {
       id: 12,
       nama: "Bose QC45",
       harga: "5.790.000",
       desc: "A perfect balance of high-fidelity audio",
-      img: "../assets/image/boseqc45.png",
+      img: "/image/boseqc45.png",
     },
   ];
   console.log(data);

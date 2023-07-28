@@ -10,7 +10,7 @@ const Card = (props) => {
       <div className="flex items-center justify-center bg-gray-200 w-full h-72 rounded-md px-4 py-4 ">
         <img
           className="h-64 w-auto object-cover"
-          src={getImgUrl(props.image)}
+          src={props.image}
           alt="Card Image"
         />
       </div>
