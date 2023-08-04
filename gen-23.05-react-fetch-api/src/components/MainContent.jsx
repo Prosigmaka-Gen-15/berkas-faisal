@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import Images from "./Images";
 
 const MainContent = (props) => {
-  const [img, setImg] = useState("");
+  const [img, setImg] = useState('');
+
   useEffect(() => {
-    setImg(props?.img1);
+    setImg(props.img1);
   }, [props.img1]);
 
-  // console.log(props.img1);
   return (
     <div className="flex flex-col mx-10 lg:mx-52 py-10">
       <div className="flex flex-col gap-6 sm:flex-col 2xl:flex-row lg:flex-row xl:flex-row md:flex-col">

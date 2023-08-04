@@ -6,19 +6,19 @@ import Card from "./Card";
 const Catalog = () => {
   const [data, setData] = useState([]);
 
-  useEffect(() => {
-    async function getData() {
-      try {
-        const res = await axios.get("http://localhost:3000/items");
-        setData(res.data);
-        // console.log(data);
-      } catch (error) {
-        console.log(error);
-      }
+  async function getData() {
+    try {
+      const res = await axios.get("http://localhost:3000/items");
+      setData(res.data);
+      // console.log(data);
+    } catch (error) {
+      console.log(error);
     }
+  }
 
+  useEffect(() => {
     getData();
-  }, [data.length]);
+  }, []);
 
   return (
     <div className="flex flex-col gap-6 px-6">

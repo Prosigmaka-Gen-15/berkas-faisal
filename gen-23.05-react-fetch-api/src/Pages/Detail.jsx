@@ -6,24 +6,22 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 
 const Detail = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState({});
   let { id } = useParams();
   var url = "http://localhost:3000/items/" + id;
 
-  useEffect(() => {
-    async function getDataById() {
-      try {
-        const response = await axios.get("http://localhost:3000/items/" + id);
-        setData(response.data);
-        // console.log(data);
-        // console.log(url);
-      } catch (error) {
-        console.log(error);
-      }
+  async function getDataById() {
+    try {
+      const response = await axios.get("http://localhost:3000/items/" + id);
+      setData(response.data);
+    } catch (error) {
+      console.log(error);
     }
+  }
 
+  useEffect(() => {
     getDataById();
-  }, [data.length]);
+  }, []);
 
   return (
     <div className="flex flex-col justify-between min-h-screen">
