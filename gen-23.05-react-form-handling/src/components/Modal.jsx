@@ -41,7 +41,7 @@ const Modal = () => {
             {errors.judul?.message}
             <input
               type="text"
-              id="title"
+              id="judul"
               {...register("judul")}
               className="border outline-none p-1"
             />
@@ -53,7 +53,7 @@ const Modal = () => {
             {errors.artis?.message}
             <input
               type="text"
-              id="artist"
+              id="artis"
               {...register("artis")}
               className="border outline-none p-1"
             />
@@ -65,7 +65,7 @@ const Modal = () => {
             {errors.tahun?.message}
             <input
               type="text"
-              id="year"
+              id="tahun"
               {...register("tahun")}
               className="border outline-none p-1"
             />
