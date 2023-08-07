@@ -1,0 +1,58 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Blue Monday",
+      "artist": "New Order",
+      "year": 1988
+    },
+    {
+      "id": 2,
+      "title": "Still Ill",
+      "artist": "The Smiths",
+      "year": 1984
+    },
+    {
+      "title": "Love Will Tear Us Apart",
+      "artist": "Joy Division",
+      "year": "1979",
+      "id": 4
+    },
+    {
+      "title": "Rock The Casbah",
+      "artist": "The Clash",
+      "year": "1978",
+      "id": 5
+    },
+    {
+      "title": "When It's Time",
+      "artist": "Green Day",
+      "year": "2010",
+      "id": 6
+    },
+    {
+      "title": "When the Sun Hits",
+      "artist": "Slowdive",
+      "year": "1993",
+      "id": 9
+    },
+    {
+      "title": "Souvlaki Space Station",
+      "artist": "Slowdive",
+      "year": "1993",
+      "id": 10
+    },
+    {
+      "title": "Only in My Dreams",
+      "artist": "The Marias",
+      "year": "2017",
+      "id": 11
+    },
+    {
+      "title": "Saturday Night",
+      "artist": "Misfits",
+      "year": "1999",
+      "id": 12
+    }
+  ]
+}
