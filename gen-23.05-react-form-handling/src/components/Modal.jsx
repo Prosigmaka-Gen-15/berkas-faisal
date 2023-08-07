@@ -3,17 +3,17 @@ import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-const Modal = () => {
-  const schema = yup.object().shape({
-    judul: yup.string().required(),
-    artis: yup.string().required(),
-    tahun: yup
-      .number()
-      .integer("Tahun tidak boleh berbentuk desimal")
-      .positive("Tahun tidak boleh negatif")
-      .required(),
-  });
+const schema = yup.object().shape({
+  judul: yup.string().required(),
+  artis: yup.string().required(),
+  tahun: yup
+    .number()
+    .integer("Tahun tidak boleh berbentuk desimal")
+    .positive("Tahun tidak boleh negatif")
+    .required(),
+});
 
+const Modal = () => {
   const form = useForm({
     resolver: yupResolver(schema),
   });
@@ -25,7 +25,6 @@ const Modal = () => {
   } = form;
 
   const onSubmit = (data, event) => {
-    event.preventDefault();
     console.log(data);
   };
   return (
