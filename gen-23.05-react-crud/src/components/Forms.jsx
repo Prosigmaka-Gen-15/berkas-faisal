@@ -53,20 +53,20 @@ const Forms = () => {
           <h1 className="text-2xl font-bold">Welcome</h1>
           <button
             onClick={() => handleOpenModal()}
-            className="bg-yellow-400 rounded text-white py-2 px-4 font-bold hover:bg-yellow-600 transition ease-in-out outline-none"
+            className="bg-yellow-500 rounded text-white py-2 px-4 font-bold hover:bg-blue-900 hover:text-yellow-500 transition ease-in-out outline-none"
           >
             Add Items
           </button>
         </div>
         <div className="w-full">
           <table className="table-auto w-full rounded">
-            <thead className="bg-gray-300 ">
+            <thead className="bg-blue-900 ">
               <tr>
-                <th className="text-left py-3 px-6">No.</th>
-                <th className="text-left py-3 px-6">Song</th>
-                <th className="text-left py-3 px-6">Artist</th>
-                <th className="text-left py-3 px-6">Year</th>
-                <th className="text-left py-3 px-6">Action</th>
+                <th className="text-left py-3 px-6 text-white">No.</th>
+                <th className="text-left py-3 px-6 text-white">Song</th>
+                <th className="text-left py-3 px-6 text-white">Artist</th>
+                <th className="text-left py-3 px-6 text-white">Year</th>
+                <th className="text-left py-3 px-6 text-white">Action</th>
               </tr>
             </thead>
             <tbody>

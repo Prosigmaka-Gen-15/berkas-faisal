@@ -42,9 +42,12 @@ const Modal = ({ id, onCloseModal }) => {
 
   return (
     <div className="w-full h-screen bg-black bg-opacity-50 absolute z-10 top-0 left-0 flex justify-center items-center px-52">
-      <div className="bg-white rounded w-full flex flex-col py-12 px-20">
-        <div className="float-right" onClick={onCloseModal}>
-          X
+      <div className="bg-white rounded w-full flex flex-col py-12 px-20 relative">
+        <div className="absolute top-5 right-5">
+          <i
+            className="fa-solid cursor-pointer fa-xmark text-2xl"
+            onClick={onCloseModal}
+          ></i>
         </div>
         <form className="flex flex-col gap-4" onSubmit={handleSubmit(onSubmit)}>
           <div className="flex flex-col gap-2">
@@ -74,10 +77,11 @@ const Modal = ({ id, onCloseModal }) => {
               Year
             </label>
             <input
-              type="text"
+              type="number"
               id="year"
               {...register("year")}
               className="border outline-none p-1"
+              pattern="[0-9]+"
             />
           </div>
           <button
