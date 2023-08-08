@@ -1,17 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-const Modal = ({ onCloseModal }) => {
+const Modal = ({ id, onCloseModal }) => {
+  console.log(id);
   const navigate = useNavigate();
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, setValue } = useForm();
+
+  const getSongData = () => {
+    axios.get("http://localhost:3000/songs/" + id).then((res) => {
+      console.log(res.data);
+      setValue("title", res.data.title);
+      setValue("artist", res.data.artist);
+      setValue("year", res.data.year);
+    });
+  };
 
   const onSubmit = async (data) => {
     try {
-      await axios.post("http://localhost:3000/songs", data);
+      if (id > 0) {
+        await axios.patch("http://localhost:3000/songs/" + id, data);
+      } else {
+        await axios.post("http://localhost:3000/songs", data);
+      }
       navigate("/");
       onCloseModal();
     } catch (error) {
@@ -19,10 +33,19 @@ const Modal = ({ onCloseModal }) => {
       console.log(error);
     }
     window.location.reload();
+    window.alert("Successful!");
   };
+
+  useEffect(() => {
+    if (id > 0) getSongData();
+  }, []);
+
   return (
     <div className="w-full h-screen bg-black bg-opacity-50 absolute z-10 top-0 left-0 flex justify-center items-center px-52">
       <div className="bg-white rounded w-full flex flex-col py-12 px-20">
+        <div className="float-right" onClick={onCloseModal}>
+          X
+        </div>
         <form className="flex flex-col gap-4" onSubmit={handleSubmit(onSubmit)}>
           <div className="flex flex-col gap-2">
             <label htmlFor="title" className="font-bold">
