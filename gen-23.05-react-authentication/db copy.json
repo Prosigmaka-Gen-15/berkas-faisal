@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "nama": "Soundcore R100",
+      "harga": "200.000",
+      "desc": "Soundcore R100 True Wireless Earbud Driver Dinamis 10mm dengan Teknologi BassUp, Pengisian Cepat, Waktu Putar 25H, Bluetooth 5.0, IPX5 Tahan Air, 2 Mikrofon untuk Panggilan Jelas, Fit Aman, Pemasangan Mudah.",
+      "img": "/soundcore.png",
+      "img2": "/soundcore2.png",
+      "img3": "/soundcore3.png",
+      "img4": "/soundcore4.png"
+    },
+    {
+      "id": 2,
+      "nama": "Airpods Max",
+      "harga": "3.000.000",
+      "desc": "A perfect balance of high-fidelity audio",
+      "img": "/airpodsmax.png",
+      "img2": "/airpodsmax1.png",
+      "img3": "/airpodsmax2.png",
+      "img4": "/airpodsmax3.png"
+    },
+    {
+      "id": 3,
+      "nama": "Sennheiser ADAPT 660",
+      "harga": "5.900.000",
+      "desc": "Maximize focus and productivity with a headset built on EPOS BrainAdapt™, ensuring superb call clarity and proven to reduce listening effort. Enjoy a UC optimized solution with adaptive ANC and machine learning enhanced microphone performance.",
+      "img": "/sennheiser660.png",
+      "img2": "/sennheiser6602.png",
+      "img3": "/sennheiser6603.png",
+      "img4": "/sennheiser660.png"
+    },
+    {
+      "id": 4,
+      "nama": "Bose QC45",
+      "harga": "5.790.000",
+      "desc": "There's comfort in quiet. You can feel it the minute you put them on. The soft, plush cushions seal you in. You press the button and whoosh — the world fades, the music starts, and it’s love at first listen. That’s the power of our next-gen QuietComfort headphones, now with a best-in-class combination of noise cancelling performance and premium comfort. Bose QuietComfort 45 headphones also deliver proprietary acoustic technology for deep, clear audio with adjustable EQ so you can tune your music to your liking. They're wireless headphones with a perfect balance of quiet, comfort, and sound you’ll enjoy all day long.",
+      "img": "/boseqc45.png",
+      "img2": "/boseqc452.png",
+      "img3": "/boseqc453.png",
+      "img4": "/boseqc454.png"
+    },
+    {
+      "id": 5,
+      "nama": "Soundcore R100",
+      "harga": "200.000",
+      "desc": "Soundcore R100 True Wireless Earbud Driver Dinamis 10mm dengan Teknologi BassUp, Pengisian Cepat, Waktu Putar 25H, Bluetooth 5.0, IPX5 Tahan Air, 2 Mikrofon untuk Panggilan Jelas, Fit Aman, Pemasangan Mudah.",
+      "img": "/soundcore.png",
+      "img2": "/soundcore2.png",
+      "img3": "/soundcore3.png",
+      "img4": "/soundcore4.png"
+    },
+    {
+      "id": 6,
+      "nama": "Airpods Max",
+      "harga": "3.000.000",
+      "desc": "A perfect balance of high-fidelity audio",
+      "img": "/airpodsmax.png",
+      "img2": "/airpodsmax1.png",
+      "img3": "/airpodsmax2.png",
+      "img4": "/airpodsmax3.png"
+    },
+    {
+      "id": 7,
+      "nama": "Sennheiser ADAPT 660",
+      "harga": "5.900.000",
+      "desc": "Maximize focus and productivity with a headset built on EPOS BrainAdapt™, ensuring superb call clarity and proven to reduce listening effort. Enjoy a UC optimized solution with adaptive ANC and machine learning enhanced microphone performance.",
+      "img": "/sennheiser660.png",
+      "img2": "/sennheiser6602.png",
+      "img3": "/sennheiser6603.png",
+      "img4": "/sennheiser660.png"
+    },
+    {
+      "id": 8,
+      "nama": "Bose QC45",
+      "harga": "5.790.000",
+      "desc": "There's comfort in quiet. You can feel it the minute you put them on. The soft, plush cushions seal you in. You press the button and whoosh — the world fades, the music starts, and it’s love at first listen. That’s the power of our next-gen QuietComfort headphones, now with a best-in-class combination of noise cancelling performance and premium comfort. Bose QuietComfort 45 headphones also deliver proprietary acoustic technology for deep, clear audio with adjustable EQ so you can tune your music to your liking. They're wireless headphones with a perfect balance of quiet, comfort, and sound you’ll enjoy all day long.",
+      "img": "/boseqc45.png",
+      "img2": "/boseqc452.png",
+      "img3": "/boseqc453.png",
+      "img4": "/boseqc454.png"
+    },
+    {
+      "id": 9,
+      "nama": "Soundcore R100",
+      "harga": "200.000",
+      "desc": "Soundcore R100 True Wireless Earbud Driver Dinamis 10mm dengan Teknologi BassUp, Pengisian Cepat, Waktu Putar 25H, Bluetooth 5.0, IPX5 Tahan Air, 2 Mikrofon untuk Panggilan Jelas, Fit Aman, Pemasangan Mudah.",
+      "img": "/soundcore.png",
+      "img2": "/soundcore2.png",
+      "img3": "/soundcore3.png",
+      "img4": "/soundcore4.png"
+    },
+    {
+      "id": 10,
+      "nama": "Airpods Max",
+      "harga": "3.000.000",
+      "desc": "A perfect balance of high-fidelity audio",
+      "img": "/airpodsmax.png",
+      "img2": "/airpodsmax1.png",
+      "img3": "/airpodsmax2.png",
+      "img4": "/airpodsmax3.png"
+    },
+    {
+      "id": 11,
+      "nama": "Sennheiser ADAPT 660",
+      "harga": "5.900.000",
+      "desc": "Maximize focus and productivity with a headset built on EPOS BrainAdapt™, ensuring superb call clarity and proven to reduce listening effort. Enjoy a UC optimized solution with adaptive ANC and machine learning enhanced microphone performance.",
+      "img": "/sennheiser660.png",
+      "img2": "/sennheiser6602.png",
+      "img3": "/sennheiser6603.png",
+      "img4": "/sennheiser660.png"
+    },
+    {
+      "id": 12,
+      "nama": "Bose QC45",
+      "harga": "5.790.000",
+      "desc": "There's comfort in quiet. You can feel it the minute you put them on. The soft, plush cushions seal you in. You press the button and whoosh — the world fades, the music starts, and it’s love at first listen. That’s the power of our next-gen QuietComfort headphones, now with a best-in-class combination of noise cancelling performance and premium comfort. Bose QuietComfort 45 headphones also deliver proprietary acoustic technology for deep, clear audio with adjustable EQ so you can tune your music to your liking. They're wireless headphones with a perfect balance of quiet, comfort, and sound you’ll enjoy all day long.",
+      "img": "/boseqc45.png",
+      "img2": "/boseqc452.png",
+      "img3": "/boseqc453.png",
+      "img4": "/boseqc454.png"
+    }
+  ]
+}

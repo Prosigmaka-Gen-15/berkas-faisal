@@ -26,14 +26,12 @@ const Modal = () => {
 
   const onSubmit = (data, event) => {
     console.log(data);
+    // setIsFormOpen(false);
   };
   return (
     <div className="w-full h-screen bg-black bg-opacity-50 absolute z-10 top-0 left-0 flex justify-center items-center px-52">
       <div className="bg-white rounded w-full flex flex-col py-12 px-20">
-        <form
-          className="flex flex-col gap-4"
-          onSubmit={handleSubmit(onSubmit())}
-        >
+        <form className="flex flex-col gap-4" onSubmit={handleSubmit(onSubmit)}>
           <div className="flex flex-col gap-2">
             <label htmlFor="title" className="font-bold">
               Title
